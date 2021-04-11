@@ -16,7 +16,7 @@ export const CountryLoader = () => {
     }
   };
   return (
-    <div style={{ backgroundColor: "#e2e2e2" }}>
+    <div style={{ backgroundColor: "red" }}>
       <button onClick={getCountries}>Load Countries</button>
       {countries &&
         countries.map((c) => {
