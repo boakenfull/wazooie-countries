@@ -1,5 +1,6 @@
 {
-  "name": "@wazooie/countries",
+  "name": "wazooie-countries",
+  "version": "0.0.2",
   "scripts": {
     "start": "webpack serve",
     "start:standalone": "webpack serve --env standalone",
@@ -17,6 +18,9 @@
       "pre-commit": "pretty-quick --staged"
     }
   },
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
     "@babel/core": "^7.12.16",
     "@babel/eslint-parser": "^7.12.16",
